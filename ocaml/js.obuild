@@ -1,0 +1,10 @@
+name: js
+version: 0.0.1
+synopsis: my new project
+obuild-ver: 1
+
+executable my_js
+  main: my_js.ml
+  src-dir: ./
+  build-deps: js_of_ocaml, js_of_ocaml.syntax, camlp4.lib
+  pp: camlp4o
