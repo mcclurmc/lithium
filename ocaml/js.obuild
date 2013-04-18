@@ -1,10 +1,10 @@
 name: js
 version: 0.0.1
-synopsis: my new project
+synopsis: js_of_ocaml for requirements tracker
 obuild-ver: 1
 
 executable my_js
   main: my_js.ml
   src-dir: ./
-  build-deps: js_of_ocaml, js_of_ocaml.syntax, camlp4.lib
+  build-deps: js_of_ocaml, js_of_ocaml.syntax
   pp: camlp4o
